@@ -1,0 +1,11 @@
+size(1000, 600);
+int height = 400;
+int width = height*2;
+int Af_rand = 100;
+fill(#FFFFFF);
+rect(Af_rand, Af_rand, width, height);
+fill(#FF0000);
+circle(height*1.25, height*0.75, height*0.5);
+fill(#000000);
+textSize(40);  
+text("Nippon", 430, 310);
